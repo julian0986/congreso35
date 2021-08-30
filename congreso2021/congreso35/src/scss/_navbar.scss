@@ -1,0 +1,52 @@
+@import "variables";
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: $color10;
+    border-bottom: solid 4px $color1;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    
+    .logo{
+        img{
+            height: 14vh;
+            width: auto;
+            padding-top: 1vh;
+        }
+    }
+    .menu{
+        ul{
+            display: flex;
+
+            li{
+                list-style-type: none;
+                padding: 2vh;
+                padding-top: 5vh;
+                /* font-family: 'Roboto', sans-serif; */
+                font-family: 'Varela Round', sans-serif;
+                font-size: 1.3rem;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            
+
+            }
+            li:hover{
+              background-color: $color4o;
+              border-bottom: solid 3px $color1;
+              border-radius: 8px;
+              transition: ease-in-out 0.4s;
+              a{
+                color: $color1;
+                transition: ease-in-out 0.4s;
+              }
+              
+
+            }
+        }
+    }
+}

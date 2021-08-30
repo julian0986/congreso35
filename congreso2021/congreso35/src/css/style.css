@@ -1,0 +1,155 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #233f4b;
+  border-bottom: solid 4px #71fff4;
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+nav .logo img {
+  height: 14vh;
+  width: auto;
+  padding-top: 1vh;
+}
+nav .menu ul {
+  display: flex;
+}
+nav .menu ul li {
+  list-style-type: none;
+  padding: 2vh;
+  padding-top: 5vh;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.3rem;
+}
+nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .menu ul li:hover {
+  background-color: rgba(0, 7, 244, 0.2);
+  border-bottom: solid 3px #71fff4;
+  border-radius: 8px;
+  transition: ease-in-out 0.4s;
+}
+nav .menu ul li:hover a {
+  color: #71fff4;
+  transition: ease-in-out 0.4s;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+header .impal {
+  text-align: center;
+  padding-top: 14vh;
+}
+header .impal img {
+  height: auto;
+  width: 100%;
+}
+header .botonh {
+  text-align: center;
+  background-color: #233f4b;
+  padding: 5vh;
+}
+header .botonh :hover {
+  background-color: transparent;
+  border-color: #71fff4;
+  transition: ease-in-out 0.5s;
+}
+header .botonh input {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.3rem;
+  background-color: #1629ff;
+  color: white;
+  padding: 1rem 5rem;
+  border-radius: 30px;
+}
+
+section .imgorganiza {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  background-color: rgba(0, 7, 244, 0.2);
+}
+section .infocongreso {
+  display: flex;
+}
+section .infocongreso .info {
+  font-family: "Varela Round", sans-serif;
+  padding: 2rem;
+  text-align: center;
+  border: solid 1rem #71fff4;
+  box-sizing: 20%;
+}
+section .infocongreso .info h2 {
+  font-size: 3rem;
+}
+section .infocongreso .info p {
+  padding-top: 2rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+section .infocongreso .imginfo {
+  box-sizing: 80%;
+}
+
+.footer {
+  display: flex;
+  background-color: #233f4b;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+.footer .logofooter {
+  width: 20vw;
+}
+.footer .logofooter img {
+  width: 80%;
+}
+.footer .contacto {
+  width: 30vw;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+.footer .contacto a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .contacto h3, .footer .contacto p, .footer .contacto a {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.footer .redes {
+  width: 20vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+.footer .redes a {
+  color: #fff;
+  font-size: 1.4rem;
+  padding-top: 0.7rem;
+}
+
+.copy {
+  background-color: #0080ff;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

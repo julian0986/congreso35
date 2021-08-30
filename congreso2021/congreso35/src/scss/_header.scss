@@ -1,0 +1,36 @@
+@import "variables";
+
+header{
+      
+    .impal{
+        text-align: center;
+        padding-top: 14vh;
+        img{
+            height: auto;
+            width: 100%;
+
+            
+        }
+    }
+    .botonh{
+        text-align: center;
+        background-color: $color10;
+        padding: 5vh;
+
+        :hover{
+            background-color:transparent;
+            border-color: $color1;
+            transition: ease-in-out 0.5s;
+        }
+        
+        input{
+            font-family: 'Varela Round', sans-serif;
+            font-size: 1.3rem;
+            background-color: $color3;
+            color: white;
+            padding: 1rem 5rem;
+            border-radius: 30px;
+           
+        }
+    }
+}

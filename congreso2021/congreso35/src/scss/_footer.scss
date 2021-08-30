@@ -1,0 +1,66 @@
+@import "variables";
+
+.footer{
+    display:flex;
+    background-color: $color10;
+    padding: 0.5rem;
+    padding-left: 1rem;
+
+    .logofooter{
+        width: 20vw;
+
+        img{
+            width: 80%;
+        }
+        
+
+    }
+    .contacto{
+        width: 30vw;
+        color:$color0;
+        font-size: 1rem;
+        font-family: $fuente1;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color:$color0;
+        }
+
+        h3,p,a{
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+           
+        
+    }
+
+    }
+    .redes{
+        
+        width: 20vw;
+        color:$color0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: $fuente1;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+
+        a{
+            color:$color0;
+            font-size: 1.4rem;
+            padding-top: 0.7rem;
+            
+        }
+
+    }
+
+
+}
+.copy{
+        
+    background-color: $color2;
+    font-family: $fuente1;
+    text-align: center;
+    padding: 1.5rem;
+    color:$color0;
+}

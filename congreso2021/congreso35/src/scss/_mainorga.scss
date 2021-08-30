@@ -1,0 +1,45 @@
+@import "variables";
+section{
+    .imgorganiza {
+        display: flex;
+        justify-content:space-around ;
+        padding-top: 1rem;
+        background-color: $color4o;
+
+    }
+
+    .infocongreso{
+        display: flex;
+
+        .info{
+            font-family: $fuente1;
+            padding: 2rem;
+            text-align: center;
+            border: solid 1rem $color1;
+            box-sizing: 20%;
+            
+
+            h2{
+                font-size: 3rem;
+                
+            }
+            p{
+                padding-top: 2rem;
+                text-align: justify;
+                font-size: 1.2rem;
+               
+
+            }
+        }
+
+        .imginfo{
+            box-sizing: 80%;
+        }
+    }
+
+}
+
+
+   
+
+
